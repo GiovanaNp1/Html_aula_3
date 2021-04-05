@@ -1,0 +1,149 @@
+#btn-login{ 
+    border-radius: 20px;
+}
+
+.navbar{
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#first-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#btn-github{ 
+    border-radius: 20px;
+    width: 200px;
+}
+
+h1{
+    color: #3e54a3;
+}
+
+button svg{
+    width:  18px;
+    margin: 5px;
+}
+
+a{
+    font-weight: bold;
+}
+
+.underline{
+    position: relative;
+}
+
+.underline::before{
+    content: "";
+    background-image: url(https://www.frontendmentor.io/static/images/zig-zag-underline.svg);
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    padding: 0.5rem 0px;
+    width: 100%;
+    height: 10px;
+    left: 0px;
+    bottom: -5px;
+    position: absolute;
+}
+
+.card h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.card{
+    text-align: center;
+}
+
+.cards-about{ 
+    margin: 50px;
+    text-align: center;
+}
+
+li {
+    background-color: rgb(219, 229, 230);
+    border-radius: 10rem;
+    height: 0.6rem;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    margin: 0px;
+    list-style: none;
+}
+
+li.highlighted {
+    background-color: #5ae2a9
+}
+
+.challenges{
+    background-color: #e1ebef;
+    text-align: center;
+}
+
+.challenges .row{
+    margin: 60px;
+}
+
+.title-challenges{
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.section-slack{
+    background-color: rgb(62, 84, 163);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 80px
+}
+
+#request-invite{
+    color: rgb(62, 84, 163);
+    font-weight: bold;
+}
+
+#text-slack{
+    font-size: 30px;
+}
+
+.text-slack-central{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+
+.btn-light{
+    border-radius: 30px;
+}
+
+.join-slack{
+    display:flex;
+    justify-content: center;
+}
+
+#input-slack{
+    background-color: transparent;
+}
+
+#input-slack::placeholder{
+    color: white;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe p{
+    font-size: 25px;
+}
+
+label{
+    font-size: 15px;
+}
